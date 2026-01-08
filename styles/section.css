@@ -1,0 +1,87 @@
+.estilizar-titulo-projetos {
+    gap: 8px;
+    margin-top: 150px;
+    font-family: var(--title-lg-asap);
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.estilizar-titulo-projetos p {
+    font-family: var(--subtitle-incosolata);
+    
+    color: var(--red);
+   
+}
+.estilizar-titulo-projetos h2{
+     font-family: var( --title-md-asap);
+     color: var(--gray-100);
+ 
+}
+
+
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;      /* Permite que os cards pulem para a linha de baixo */
+    gap: 24px;            /* Define o espaço exato entre os cards */
+    justify-content: center; /* Alinha os cards no início (esquerda) */
+    padding: 20px;        /* Espaço nas laterais da seção inteira */
+}
+
+
+.card {
+    background-color: var(--gray-400);
+    width: 330px;
+    height: 280px;
+    border-radius: 12px;
+    padding: 12px; /* Ajustei para 12px para bater com o Figma */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Cria um espaço automático entre imagem, título e texto */
+}
+
+.card-image {
+    width: 100%;
+    height: 50%;              
+    object-fit: cover;
+    /* Adicione isso para a imagem acompanhar o arredondamento */
+    border-radius: 8px; 
+}
+
+/* Ajuste opcional para os textos */
+.card h3 {
+    
+    font-family: var(--title-sm-asap);
+    color: white;
+}
+
+.card p {
+   
+    font-family: var(--text-sm-maven);
+    color: var(--gray-200); /* Ou a cor de texto do seu tema */
+}
+.btn-projeto {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent; /* Fundo transparente como no design */
+    color: var(--gray-100);               /* Cor roxa/azulada do seu tema */
+    border: 1px solid white;    /* Borda fina */
+    border-radius: 6px;           /* Canto levemente arredondado */
+    text-decoration: none;        /* Remove o sublinhado do link */
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease;    /* Efeito suave ao passar o mouse */
+    margin-top: auto;             /* Empurra o botão para o fim do card */
+    align-self: flex-start;       /* Alinha à esquerda */
+}
+
+/* Efeito quando passar o mouse (Hover) */
+.btn-projeto:hover {
+    background-color: #8257e5;
+    color: white;
+    box-shadow: 0 0 15px rgba(130, 87, 229, 0.4);
+}
