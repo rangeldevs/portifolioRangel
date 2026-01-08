@@ -1,0 +1,48 @@
+.estilizar-titulo-servicos{
+    text-align: center;
+    padding: 60px 20px 0 20px;
+}
+.estilizar-titulo-servicos h2 {
+    font-family: var(--title-md-asap);
+    color: var(--gray-100);
+    margin-bottom: 20px;
+}
+.estilizar-titulo-servicos p {
+    font-family: var(--subtitle-incosolata);
+    color: var(--red);
+    margin-bottom: 10px;
+}
+
+.cards-serviços {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.card-serviço-web {
+    width: 280px;
+    height: 155px;
+    border: 2px solid var(--gray-500);
+    border-radius: 12px;
+    padding: 20px;
+  
+}
+.card-serviço-web h3 {
+    font-family: var( --title-sm-asap);
+    margin-top: 10px;
+    color: var(--gray-100);
+}
+.card-serviço-web p {
+    font-family: var( --text-sm-maven);
+    margin-top: 10px;
+    color: var(--gray-100);
+}
+.card-serviço-web:hover {
+    border-color: var(--purple); 
+    background-color: rgba(130, 87, 229, 0.05); 
+    transform: translateY(-5px); 
+}
+.serviços{
+    background-color: var(--gray-600);
+}
