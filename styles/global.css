@@ -42,3 +42,7 @@ body {
     color: var(--gray-100);
     font-family: var(--font-family-maven-pro);
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
