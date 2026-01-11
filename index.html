@@ -2,9 +2,11 @@
 <html lang="pt-br">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Rangel</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
 
     <!-- fontes ASAP-->
@@ -27,7 +29,7 @@
 <body>
     <header>
 
-        <div class="perfil">
+        <div class="perfil " data-aos="fade-down">
             <img src="styles/assets/images/fotoperfil.png" alt="">
             <span>Hello Word! Meu nome é Rangel Santos e sou</span>
             <h1>Desenvolvedor Full Stack</h1>
@@ -36,7 +38,7 @@
                 complexos.
             </p>
         </div>
-        <div class="listaDeLinguagens">
+        <div class="listaDeLinguagens" data-aos="fade-down">
             <ul>
                 <li>
                     <a href="#" target="_blank">
@@ -80,7 +82,7 @@
     </header>
 
 
-    <section class="projetos">
+    <section class="projetos" >
         <div class="estilizar-titulo-projetos">
             <p>Meu trabalho</p>
             <h2>Veja os Projetos em destaque</h2>
@@ -215,6 +217,13 @@
         </div>
 
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // Duração da animação em milissegundos
+    once: true,     // Anima apenas uma vez ao descer
+  });
+</script>
 </body>
 
 </html>
