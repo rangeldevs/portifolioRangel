@@ -1,0 +1,71 @@
+footer {
+
+     background-image: url(assets/images/Background_Contacts.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+     margin-top: 128px;
+
+}
+.tituloFooter {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+   
+
+}
+.tituloFooter p {
+
+    
+    font-family: var(--subtitle-incosolata);
+   color: var(--purple);
+
+}
+.tituloFooter h2 {
+
+    font-family: var(--title-lg-asap);
+    color: var(--gray-100);
+
+}
+.tituloFooter span {
+
+    font-family: var(--text-md-maven);
+    color: var(--gray-200);
+
+}
+.contatos {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 32px;
+   
+
+}
+
+.contatos a {
+
+    text-decoration: none;
+    display: flex;
+    width: 400px;
+    height: 68px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+
+}
+.contatos a:hover {
+
+    background-color: rgb(190, 0, 238);
+    transition: 0.3s;
+
+}
